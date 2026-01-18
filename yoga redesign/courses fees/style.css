@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Imprima", sans-serif;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow-x: hidden;
+}
+.course-fee-table {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.course-heading h2 {
+  font-family: "Doppio One", sans-serif;
+  color: #202020;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.qr-section {
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.qr-section img {
+  width: 150px;
+  margin: 10px 0;
+}
+.pricing {
+  background-image: url("./images/backgroundimg.png");
+  background-size: cover;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 0.5em;
+  line-height: 1.8;
+  font-weight: inherit;
+  font-weight: 400;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.qr-section h3 {
+  position: relative;
+  font-family: "Doppio One", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-block: 30px;
+  color: #202020;
+}
+.qr-section p {
+  font-size: 17px;
+  color: #ffff;
+}
+.qr-section .underline {
+  display: block;
+  width: 50%;
+  height: 2px;
+  border-bottom: 1px solid #202020;
+  margin: 10px auto;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.transition {
+  animation: slideInRight 1s ease-in-out;
+}
+
+.transition img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 150px;
+}
+
+.mt-3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+.details{
+    height: auto;
+}
+.card {
+  border: none;
+  height: 340px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-color: #1906b300;
+}
+.account-card {
+  border: none;
+  height: 340px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+  text-align: left;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.account-card h3,
+.card h3 {
+  color: #202020;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-family: Verdana, sans-serif;
+  padding-top: 20px;
+  position: relative;
+}
+.account-card h3::after,
+.card h3::after {
+  content: "";
+  display: block;
+  width: 100px;
+  padding-block-start: 6px;
+  padding-block-end: 6px;
+  border-bottom: 1px solid #FFB924;
+  margin: 10px auto 20px auto;
+}
+.card h3::after {
+  margin: 10px auto 8px auto;
+}
+
+.account-card p,
+.card p {
+  margin-bottom: 0.5em;
+  color: #000000;
+  font-size: 19px;
+  line-height: 30px;
+}
+.card .upi {
+  color: #0e526f;
+  line-height: 1.2em;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.account-details span {
+  font-weight: 500;
+  color: #000;
+}
+
+.reserve-seat-btn {
+  background-color: #ffb400;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: #202020;
+  text-transform: uppercase;
+  border-radius: 3px;
+  height: auto;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.reserve-seat-btn:hover {
+  color: #ffb400;
+  background-color: #202020;
+}
+.bounce {
+  animation: bounce 2s ease-in;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width: 1200px){
+  .reserve-seat-btn {
+    margin-left: 45px;
+    margin-right: 45px;
+        width: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pricing{
+        background-image: cover;
+        background-position: left;
+    }
+    .course-heading h2 {
+        font-size: 2rem;
+    }
+    
+    .qr-section h3 {
+        font-size: rem;
+    }
+    
+    .account-card h3 ,.card h3{
+        font-size: 20px;
+    }
+    .account-card p , .card p{
+        font-size: 15px;
+        margin-bottom: 0;
+        line-height:32px;
+        text-align: center;
+    }
+.account-card ,.card{
+    padding: 8px;
+}
+
+.card .description {
+    font-size: 18px;
+  } 
+
+    .reserve-seat-btn {
+    margin-left: 25px;
+    margin-right: 25px;
+        width: auto;
+    }
+
+    td, th {
+        font-size: 14px;
+        padding: 6px;
+    }
+    
+    .pricing {
+        padding-bottom: 20px;
+    }
+
+    .transition img {
+        width: 100px;
+    }
+}
+@media (max-width: 480px) {
+  .course-fee-table {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  }
+  .course-heading h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  td,
+th {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+  .qr-section h3 {
+    font-size: 1.8rem;
+    padding-block: 15px;
+  }
+
+  .qr-section p {
+    font-size: 14px;
+  }
+
+  .reserve-seat-btn {
+margin-right: 90px;
+margin-left: 90px;
+  }
+
+  
+  .account-card {
+    height: 300px;
+    
+  }
+  .card{
+    height: 250px;
+  }
+  .card p,
+  .account-card p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .card h3,
+  .account-card h3 {
+    font-size: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  td,
+  th {
+    padding: 4px;
+  }
+}
+

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+.container {
+  height: 100%;
+}
+
+
+.coffee {
+  background: #ffff;
+  height: 100vh;
+  padding-block: 50px;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.coffee-option {
+  background: #363032; 
+  padding: 150px;
+  height: 500px;
+}
+.food-hero-section {
+  background: #f2f2f2;
+  height: 100vh;
+  padding-block: 50px;
+}
+
+.hero-text h1 {
+  font-size: 78px;
+  font-weight: 600;
+  line-height: 88px;
+  text-align: left;
+  color: #252525;
+}
+.hero-text p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32.78px;
+  color: #252525;
+  text-align: justify;
+}
+.primary-btn {
+  width: Hug (288px) px;
+  height: Hug (66px) px;
+  padding: 18px 48px 18px 48px;
+  gap: 10px;
+  border-radius: 36px;
+  opacity: 0px;
+  background: #252525;
+  cursor: pointer;
+}
+
+.veg-section {
+  background: #ffff;
+  height: 50vh;
+  padding-block: 50px;
+}
+.img2 {
+  width: 160px;
+  height: 340px;
+  margin-top: -150px;
+}
+.veg-group {
+  margin-right: 90px;
+}
+
+.veg-text h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.78px;
+  text-align: left;
+  color: #0a0a0acc;
+}
+.veg-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.05px;
+  text-align: left;
+  color: #252525cc;
+}
+
+.coffe-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  color: #363031;
+}
+.coffe-text p {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.99px;
+  text-align: left;
+  color: #363031;
+}
+.explore-btn {
+  width: Hug (179px) px;
+  height: Hug (66px) px;
+  padding: 14px 48px 14px 48px;
+  gap: 10px;
+  border-radius: 40px;
+  opacity: 0px;
+  background: #a36a4f;
+  border: none;
+  cursor: pointer;
+}
+.coffee-img {
+  width: 400px;
+}
+.option p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-section h2{
+font-size: 55px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+color: #252525;
+
+}
+.text-section p{
+  margin-top: 20px;
+font-size: 24px;
+font-weight: 400;
+line-height: 27.6px;
+text-align: justify;
+color: #252525;
+
+}
+.get-btn{
+  width: Hug (177px)px;
+height: Hug (66px)px;
+padding: 14px 32px 14px 32px;
+gap: 10px;
+border-radius: 36px;
+opacity: 0px;
+background: #457D61;
+border: none;
+}
+.mid-img{
+  margin-left: 100px;
+}
+.nature{
+  height: 100vh;
+  padding-block: 50px;
+}
+.frame-img{
+  margin-top: 80px;
+}
+.frame{
+  margin-left: 20px;
+}
+.frame-nature{
+  margin-left: 20px;
+  margin-top:50px;
+}
+.nature-image{
+  margin-right: 20px;
+  margin-top:50px;
+}
+.btn-option{
+  height: auto;
+  width: 900px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 70px;
+  margin-bottom: -120px;
+  margin-left: 120px;
+  padding: 10px;
+  background: #ecdac4;
+  border: none;
+}
+.btn-option p {
+  margin-right: 40px;
+  font-size: 16px;
+  margin-left: 40px;
+  align-items: center;
+  font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 0;
+  }
+  
+   .btn-option{
+    height: auto;
+    width: 380px;
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 0;
+    margin-left:0;
+  }
+  .btn-option p {
+    margin-right: 40px;
+    font-size: 7px;
+    margin-left: 40px;
+    align-items: center;
+    font-weight: 400;
+  } 
+  .btn-option h4{
+    font-size: 14px;
+  }
+  .btn-option .cup-icon{
+    font-size:14px;
+  }
+  
+  .text-section h2{
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 40px;
+  }
+  .mid-img{
+    margin-left:0;
+  }
+  .text-section p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .coffee-option {
+    color: #363031;
+    height: 1520px;
+  }
+  .option-img {
+    margin-top: 15px;
+    padding-left: 80px;
+  }
+
+  .btn-div {
+    width: 150px;
+    margin-left: 60px;
+    padding: 10px;
+    text-align: center;
+  }
+  .coffee-option {
+    padding: 0;
+  }
+
+  .hero-img {
+    width: 300px;
+  }
+  .coffee-img {
+    width: 300px;
+  }
+  .primary-btn {
+    width: Hug (188px) px;
+    height: Hug (46px) px;
+    padding: 18px 48px 18px 48px;
+    border-radius: 26px;
+  }
+
+  .img2 {
+    width:80px;
+    height: 180px;
+    margin-top: -100px;
+  }
+  .veg-group {
+    flex-wrap: nowrap;
+    margin-left: -10px;
+  }
+
+  .veg-text h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .veg-text p {
+    font-size: 14px;
+    line-height: 20.05px;
+  }
+
+}
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 0;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.78px;
+  }
+  .coffe-text h1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 20px;
+
+  }
+  .coffe-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.78px;
+  }
+
+  .coffee-img {
+    margin-top: 20px;
+    
+  }
+}

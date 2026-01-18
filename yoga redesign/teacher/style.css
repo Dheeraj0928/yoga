@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Imprima", sans-serif;
+    line-height: 1.85714285714286;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.yogi-aditya{
+    padding-block: 40px;
+  
+}
+.heading{
+    background-color:#FFB92266;
+    padding: 30px;
+}
+.content{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.yog-headline h1{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.3em;
+    font-size: 47px;
+    font-weight: 600;
+    color: #202020;
+    text-transform: capitalize;
+}
+.text-content h2{
+    font-size: 20px;
+    line-height: 1.7em;
+    color: #202020;
+    font-family: "Doppio One", sans-serif;
+    font-weight: 700;
+}
+.text-content p{
+    margin-bottom: 0.5em;
+    margin-block-end: 20px;
+}
+.text-content h4{
+    line-height: 2em;
+    color: #202020;
+
+}
+.name h4 {
+    position: relative;
+    display: inline-block;
+}
+
+.name h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    width: 100%;
+    border-bottom: 1px solid #202020;
+}
+.icon-container {
+    display: flex;
+    gap: 25px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.facebook-icon {
+    background-color: #3b5998;
+    color: white;
+}
+
+.instagram-icon {
+    background-color: #262626;
+    color: white;
+}
+
+.icon i {
+    font-size: 24px;
+}
+.icon:hover {
+    animation: shake 0.2s infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 0); }
+    25% { transform: translate(-1px, 0); }
+    50% { transform: translate(1px, 0); }
+    75% { transform: translate(-1px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+@media (max-width: 540px) {
+    .yogi-aditya {
+        padding-block: 20px;
+    }
+    
+    .heading {
+        padding: 15px;
+    }
+    .icons{
+        display:grid;
+        justify-content: center;
+    }
+    .icon{
+        height: 35px;
+        width: 35px;
+        margin-left: 12px;
+    }
+    
+    
+    .content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .yog-headline h1 {
+        font-size: 30px; 
+    }
+    
+    .text-content h2 {
+        font-size: 16px; 
+    }
+    
+    .icon-container {
+        gap: 15px; 
+    }
+}
+@media(max-width: 768px) {
+    .yogi-aditya {
+        padding-block: 30px;
+    }
+
+    .heading {
+        padding: 25px;
+    }
+
+    .content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .yog-headline h1 {
+        font-size: 36px; 
+    }
+
+    .text-content h2 {
+        font-size: 18px; 
+    }
+    
+    .content{
+        padding-left:1px;
+        padding-right: 1px;
+        line-height: 25px;
+            }
+}
+@media(max-width: 1024px) {
+    .yogi-aditya {
+        padding-block: 35px;
+    }
+
+    .heading {
+        padding: 28px;
+    }
+
+    .content {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    
+
+    .text-content h2 {
+        font-size: 19px; 
+    }
+    .content{
+        padding-left:1px;
+        padding-right: 1px;
+        line-height: 28px;
+            }
+}
+
+
