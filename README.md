@@ -5,9 +5,13 @@ A curated collection of modern, responsive web projects built using HTML, CSS, J
 This repository represents hands-on frontend development practice with a focus on design accuracy, responsiveness, and clean structure.
 
 📌 Overview
-<img width="1902" height="876" alt="image" src="https://github.com/user-attachments/assets/273ef450-9ef2-496e-a77e-91bd7adafe6b" />
 <img width="1893" height="867" alt="image" src="https://github.com/user-attachments/assets/f8f40152-04da-4962-9148-1289035a8138" />
+
+<img width="1902" height="876" alt="image" src="https://github.com/user-attachments/assets/273ef450-9ef2-496e-a77e-91bd7adafe6b" />
+
 <img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/683e2776-c782-43cd-89d8-70533765886c" />
+<img width="1899" height="861" alt="image" src="https://github.com/user-attachments/assets/98a34fee-f7a6-4d84-bb5c-541301e71f23" />
+
 
 
 
@@ -28,8 +32,10 @@ Asset management (images, fonts, icons)
 Clean HTML/CSS structuring
 
 📁 Project Structure
+
+
 yoga/
-├── pages/
+├── pages/ 
 │   ├── brand/          # WTISpace – Influencer Marketing Platform
 │   ├── food/           # Restaurant / Cafe Website
 │   ├── maintenance/    # Maintenance / 404 Page
